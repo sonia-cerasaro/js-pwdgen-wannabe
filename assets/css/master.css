@@ -1,0 +1,45 @@
+body {
+  background-color: black;
+}
+
+section.one > h1 {
+  margin-top: 50px;
+  color: lightgreen;
+  text-align: center;
+}
+
+h1#password {
+  width: 50%;
+  margin: auto;
+  margin-top: 8px;
+  color: #fff;
+  text-align: center;
+}
+
+section.two {
+  width: 50%;
+  height: 50px;
+  margin: auto;
+  margin-top: 100px;
+  background-color: grey;
+  border: lightgreen solid 2px;
+  border-radius: 15px;
+}
+
+.lock_container {
+  width: 50%;
+  height: 70px;
+  margin: auto;
+  position: relative;
+}
+
+.lock_container > i {
+  color: lightgreen;
+  text-align: center;
+  font-size: 50px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
